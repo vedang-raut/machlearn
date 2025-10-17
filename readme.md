@@ -1,1 +1,1 @@
-Date: 17/10/2025 This would be the first day of machine we would be learning about datapreprocessing.
+Date: 17/10/2025 This would be the first day Topics covered= sample print, variable, .
