@@ -87,7 +87,7 @@ count=0
 while count<len(cars):
     print(cars[count])
     count=count+1
-'''
+
 cars=("fronx","taisor","sonet","venue","creta","mustang")
 count=0
 x=input("Enter the name of car")
@@ -95,3 +95,12 @@ while count<len(cars):
     if (x==cars[count]):
         print(cars[count],"at index",count)
     count=count+1 
+'''
+
+
+
+cars=("venue","audi","hyundai","sonet","kia")
+count=0
+while count<len(cars):
+    print(cars[count])
+    count=count+1
