@@ -18,4 +18,5 @@ while i<=n:
     store=store+i
     i=i+1
 print(store)
-   
+
+

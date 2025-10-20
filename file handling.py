@@ -1,5 +1,17 @@
-f=open("demo.txt","r")
+''' f=open("demo.txt","r")
 data=f.read()
 print(data)
 print(type(data))
-f.close()
+f.close()'''
+
+
+
+# lets understand the default mode that is read "r" and text "t" mode.
+
+
+
+file=open("demo.txt","rt")  #Default mode that is read and text
+data=file.read()
+print(data)
+print(type(data))
+file.close
