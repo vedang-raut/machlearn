@@ -54,7 +54,7 @@ cars=["venue","audi","hyundai","sonet","kia"]
 (bmw(cars))
 
 
-''' 
+
 
 def natural (n):
     if n==0:
@@ -62,3 +62,45 @@ def natural (n):
     print(n)
     natural(n-1)
 natural(5)
+ 
+
+
+
+def natural(n):
+    if n==0:
+        return
+    else:
+        print (n)
+        natural(n-1)
+        print("end")
+
+natural(9)
+
+
+
+
+def factorial  (n):
+    
+    if n==0 or n==1:
+        return 1
+    else:
+        return factorial(n-1)*n
+
+    
+
+print(factorial(3))
+'''
+
+
+
+
+
+
+def jans(list,index=0):
+    if index==len(list):
+        return
+    else:
+        print(list[index])
+        jans(list,index+1)
+cars=["venue","audi","hyundai","sonet","kia"]        
+jans(cars)
